@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     margin: 0;
