@@ -29,14 +29,6 @@ a {
     flex-direction: column;
 }
 
-.more-projects {
-    color: #d1cbdd;
-    bottom: 0;
-    left: 48.5vw;
-    position: absolute;
-    text-align: center;
-}
-
 body {
     background-image: url('bc.jpg');
     background-size: cover;
@@ -44,7 +36,8 @@ body {
     margin: 0;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: auto;
+    font-size: 1rem;
 }
 
 
