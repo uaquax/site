@@ -29,19 +29,13 @@ a {
     flex-direction: column;
 }
 
-@supports (height: 100svh) {
-    body {
-        height: 100svh;
-    }
-}
-
 body {
     background-image: url('bc.jpg');
     background-size: cover;
     color: #eee;
     margin: 0;
-    min-width: 100vw;
-    height: calc(var(--vh, 1vh) * 100);
+    min-width: 100dvw;
+    min-height: 100dvh;
     overflow: auto;
     font-size: 1rem;
 }
