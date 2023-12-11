@@ -29,6 +29,12 @@ a {
     flex-direction: column;
 }
 
+@supports (height: 100svh) {
+    body {
+        min-height: 100svh;
+    }
+}
+
 body {
     background-image: url('bc.jpg');
     background-size: cover;
